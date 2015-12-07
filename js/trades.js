@@ -106,11 +106,11 @@ TradeScreen.prototype.updateArrow = function() {
 		$("#total-box-left-arrow").css('visibility', 'hidden');
 		$("#total-box-right-arrow").css('visibility', 'hidden');
 	} else if (this.left_sum > this.right_sum) {
-		$("#total-box-left-arrow").css('visibility', 'visible');
-		$("#total-box-right-arrow").css('visibility', 'hidden');
-	} else if (this.left_sum < this.right_sum) {
 		$("#total-box-left-arrow").css('visibility', 'hidden');
 		$("#total-box-right-arrow").css('visibility', 'visible');
+	} else if (this.left_sum < this.right_sum) {
+		$("#total-box-left-arrow").css('visibility', 'visible');
+		$("#total-box-right-arrow").css('visibility', 'hidden');
 	}
 };
 
