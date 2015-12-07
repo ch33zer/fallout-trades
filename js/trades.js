@@ -25,7 +25,6 @@ TradePanel.prototype.addElement = function(text, icon_class, amt) {
     this.num_elements++;
     var new_element = this.makeElement(text, icon_class, amt);
     new_element.children(".list-icon").click($.proxy(function(e) {
-      console.log("Remove");
       $(e.target).parent().remove();
       this.num_elements--;
       this.recompute();
