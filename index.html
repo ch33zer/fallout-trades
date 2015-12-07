@@ -15,6 +15,16 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body class="container">
+	<div class="row">
+		<div class="col-xs-5">
+			<input id="left-name-input" class="name" type="text" value="Rick"></input>
+		</div>
+		<div class="col-xs-2">
+		</div>
+		<div class="col-xs-5">
+			<input id="right-name-input" class="name" type="text" value="Morty"></input>
+		</div>
+	</div>
 	<div id="trade-window-row" class="row">
 		<div class="col-xs-5">
 			<img id="left-trade-box-img" class="img-reponsive trade-box-img" src="img/fallout_trade_window.png">
@@ -30,14 +40,31 @@
 		</div>
 	</div>
 	<div class="row">
+		<div class="col-xs-5">
+			<input id="left-trade-box-total" class="unselectable total" type="text"></input>
+		</div>
 		<div class="col-xs-2">
+		</div>
+		<div class="col-xs-5">
+			<input id="right-trade-box-total" class="unselectable total" type="text"></input>
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-xs-12">
-			<img id="logo" src="img/f4-logo.jpg" class="img-responsive"/>
+		<div class="col-xs-4">
+		</div>
+		<div class="col-xs-4">
+			<div class="img-container">
+				<img id="total-box-left-arrow" class="arrow total-images" src="img/fallout_arrow_left.png" style="visibility: hidden">
+				<img id="total-box-img" class="total-images" src="img/fallout_total_cost_box.png">
+				<div id="total-box">
+				</div>
+				<img id="total-box-right-arrow" class="arrow total-images" src="img/fallout_arrow_right.png" style="visibility: hidden">
+			</div>
+		</div>
+		<div class="col-xs-4">
 		</div>
 	</div>
+
 	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 	<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
