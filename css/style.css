@@ -1,0 +1,84 @@
+body {
+	background-color:black;
+}
+
+input[type="text"] {
+    border: none;
+    background-color: transparent;
+	font-size: 20px;
+	outline-width: 0;
+}
+
+.unselectable {
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#logo {
+	margin: 0 auto;
+}
+.list-item:hover {
+	color: black;
+	background-color: rgb(23, 252, 27);
+}
+.list-item {
+	margin: 2px 5px;
+	color: rgb(23, 252, 27);
+	text-overflow: ellipsis;
+ 	white-space: nowrap;
+ 	overflow: hidden;
+}
+.list-icon {
+	color: inherit;
+	font-size: 20px;
+}
+.list-amt {
+	margin-left: 5px;
+	font-size: 20px;
+	color: inherit;
+	width: 60px;
+}
+.list-text {
+	padding-left: 5px;
+	color: inherit;
+	font-size: 20px;
+	width: 350px;
+}
+
+.trade-box-img {
+	background-color: rgb(0,51,51);
+	margin: 0 auto;
+}
+
+.trade-box {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	padding: inherit;
+	border: inherit;
+	margin: inherit;
+	padding-top: 5px;
+}
+
+#left-trade-box {
+
+}
+#right-trade-box {
+
+}
+
+#left-trade-box-img {
+}
+
+#right-trade-box-img {
+}
+
+#trade-window-row {
+	margin-top: 5%;
+}
