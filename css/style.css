@@ -1,8 +1,9 @@
 body {
 	background-color:black;
-	background-image: url("../img/f4-logo.jpg");
+	background-image: url("../img/Fallout_4_logo.png"), url("../img/bg.png");
 	background-repeat: no-repeat;
-	background-position: center top;
+	background-position: center bottom, center top;
+	background-size: auto auto;
 	color: rgb(23, 252, 27);
 	font-size: 20px;
 }
