@@ -95,7 +95,7 @@ function TradeScreen(left_panel_id, right_panel_id) {
 		console.log('before unload');
         this.saveState();
     }, this));
-    this.loadState();
+  this.loadState();
 	this.updateArrow();
 };
 
