@@ -91,7 +91,6 @@ function TradeScreen(left_panel_id, right_panel_id) {
   this.left_trade_panel.addTotalChangeListener($.proxy(this.leftSumChange, this));
   this.right_trade_panel.addTotalChangeListener($.proxy(this.rightSumChange, this));
   $(window).on('beforeunload', $.proxy(function() {
-    console.log('before unload');
     this.saveState();
   }, this));
   this.loadState();
