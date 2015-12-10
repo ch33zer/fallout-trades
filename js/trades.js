@@ -18,7 +18,7 @@ function TradePanel(id, total_id) {
 };
 
 TradePanel.prototype.addElement = function(text, icon_class, amt) {
-  text = text || "Hand jibbers";
+  text = text || "Wonderglue";
   icon_class = icon_class || "glyphicon-remove-circle";
   amt = amt || "0.0";
   if (this.num_elements < this.MAX_ELEMENTS) {
